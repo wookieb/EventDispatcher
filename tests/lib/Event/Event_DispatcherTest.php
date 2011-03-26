@@ -58,6 +58,9 @@ class Event_DispatcherTest extends PHPUnit_Framework_TestCase {
 		$this->object->addListener('name', false);
 	}
 
+	/**
+	 * @depends testSuccessAddListener
+	 */
 	public function testSuccessCheckExistsListeners() {
 		$this->object->addListener('name', 'trim');
 		$this->assertTrue($this->object->hasListeners('name'));
