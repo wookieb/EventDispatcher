@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * @author Wookieb
+ * @package Tests
+ * @subpackage Events
+ * @group Events
+ * @group EventDispatcher
+ */
 class Event_DispatcherTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @var Event_Dispatcher

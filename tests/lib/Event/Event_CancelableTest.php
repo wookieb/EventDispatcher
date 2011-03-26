@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * @author Wookieb
+ * @package Tests
+ * @subpackage Events
+ * @group Events
+ */
 class Event_CancelableTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @var Event_Cancelable
